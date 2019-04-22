@@ -1,0 +1,291 @@
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>E:
+
+E:\>cd E:\Code\Java\NodeJS\node-react-graphql
+
+E:\Code\Java\NodeJS\node-react-graphql>sudo npm install -g create-react-app
+'sudo' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\NodeJS\node-react-graphql>npm install -g create-react-app
+C:\Users\Pritam\AppData\Roaming\npm\create-react-app -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\create-react-app\index.js
++ create-react-app@2.1.8
+added 63 packages from 20 contributors in 9.963s
+
+E:\Code\Java\NodeJS\node-react-graphql>create-react-app client
+
+Creating a new React app in E:\Code\Java\NodeJS\node-react-graphql\client.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts...
+
++ react@16.8.6
++ react-dom@16.8.6
++ react-scripts@2.1.8
+added 1851 packages from 718 contributors and audited 36248 packages in 405.011s
+found 68 vulnerabilities (63 low, 5 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+Initialized a git repository.
+
+Success! Created client at E:\Code\Java\NodeJS\node-react-graphql\client
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd client
+  npm start
+
+Happy hacking!
+
+E:\Code\Java\NodeJS\node-react-graphql>cd client
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm start
+
+> client@0.1.0 start E:\Code\Java\NodeJS\node-react-graphql\client
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? No
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm start
+
+> client@0.1.0 start E:\Code\Java\NodeJS\node-react-graphql\client
+> react-scripts start
+Starting the development server...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)? y
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm install apollo-boost react-apollo graphql-tag graphql --save
+npm WARN ts-pnp@1.1.2 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ graphql-tag@2.10.1
++ graphql@14.2.1
++ apollo-boost@0.3.1
++ react-apollo@2.5.5
+added 26 packages from 24 contributors and audited 36415 packages in 53.38s
+found 68 vulnerabilities (63 low, 5 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm install --save react-router-dom
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.5 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+npm WARN ts-pnp@1.1.2 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ react-router-dom@5.0.0
+added 18 packages from 88 contributors and audited 36480 packages in 39.151s
+found 68 vulnerabilities (63 low, 5 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm install --save-dev bootstrap
+npm WARN ts-pnp@1.1.2 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@4.3.1
+added 1 package from 2 contributors and audited 36481 packages in 43.737s
+found 68 vulnerabilities (63 low, 5 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm install graphql-tag --save
+npm WARN bootstrap@4.3.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.3.1 requires a peer of popper.js@^1.14.7 but none is installed. You must install peer dependencies yourself.
+npm WARN ts-pnp@1.1.2 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ graphql-tag@2.10.1
+updated 1 package and audited 36481 packages in 31.824s
+found 68 vulnerabilities (63 low, 5 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm start
+
+> client@0.1.0 start E:\Code\Java\NodeJS\node-react-graphql\client
+> react-scripts start
+Starting the development server...
+Failed to compile.
+
+./src/index.js
+  Line 26:  'client' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 33:  Parsing error: Identifier 'gql' has already been declared
+
+  31 | import gql from 'graphql-tag';
+  32 | import { Query } from 'react-apollo';
+> 33 | import gql from 'graphql-tag';
+     |        ^
+  34 | import { Query } from 'react-apollo';
+  35 |
+  36 | const GET_BOOKS = gql`
+Compiling...
+Failed to compile.
+
+./src/App.js
+  Line 33:  Parsing error: Identifier 'gql' has already been declared
+
+  31 | import gql from 'graphql-tag';
+  32 | import { Query } from 'react-apollo';
+> 33 | import gql from 'graphql-tag';
+     |        ^
+  34 | import { Query } from 'react-apollo';
+  35 |
+  36 | const GET_BOOKS = gql`
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.230.1:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)?
+
+E:\Code\Java\NodeJS\node-react-graphql\client>
+
+E:\Code\Java\NodeJS\node-react-graphql\client>
+
+E:\Code\Java\NodeJS\node-react-graphql\client>
+
+E:\Code\Java\NodeJS\node-react-graphql\client>npm start
+
+> client@0.1.0 start E:\Code\Java\NodeJS\node-react-graphql\client
+> react-scripts start
+? Something is already running on port 3000.
+
+Would you like to run the app on another port instead? Yes
+Starting the development server...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://192.168.230.1:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://192.168.230.1:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+Compiling...
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3001/
+  On Your Network:  http://192.168.230.1:3001/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+

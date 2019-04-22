@@ -1,0 +1,210 @@
+Your environment has been set up for using Node.js 8.11.2 (x64) and npm.
+
+C:\Users\Pritam>E:
+
+E:\>cd E:\Code\Java\NodeJS
+
+E:\Code\Java\NodeJS>npm install express-generator -g
+C:\Users\Pritam\AppData\Roaming\npm\express -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\express-generator\bin\express-cli.js
++ express-generator@4.16.0
+updated 1 package in 4.606s
+
+E:\Code\Java\NodeJS>mkdir node-react-graphql
+
+E:\Code\Java\NodeJS>cd node-react-graphql
+
+E:\Code\Java\NodeJS\node-react-graphql>express server
+
+  warning: the default view engine will not be jade in future releases
+  warning: use `--view=jade' or `--help' for additional options
+
+
+   create : server\
+   create : server\public\
+   create : server\public\javascripts\
+   create : server\public\images\
+   create : server\public\stylesheets\
+   create : server\public\stylesheets\style.css
+   create : server\routes\
+   create : server\routes\index.js
+   create : server\routes\users.js
+   create : server\views\
+   create : server\views\error.jade
+   create : server\views\index.jade
+   create : server\views\layout.jade
+   create : server\app.js
+   create : server\package.json
+   create : server\bin\
+   create : server\bin\www
+
+   change directory:
+     > cd server
+
+   install dependencies:
+     > npm install
+
+   run the app:
+     > SET DEBUG=server:* & npm start
+
+
+E:\Code\Java\NodeJS\node-react-graphql>cd server
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm install
+npm WARN deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated constantinople@3.0.2: Please update to at least constantinople 3.1.1
+npm WARN deprecated transformers@2.1.0: Deprecated, use jstransformer
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 99 packages from 139 contributors and audited 194 packages in 13.499s
+found 3 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\server>nodemon
+[nodemon] 1.18.10
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node ./bin/www`
+GET / 200 1343.960 ms - 170
+GET /stylesheets/style.css 200 13.454 ms - 111
+GET /favicon.ico 404 16.939 ms - 1272
+
+
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available 1.18.10 → 1.18.11    │
+   │     Run npm i -g nodemon to update      │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+Terminate batch job (Y/N)? ^C
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm i -g nodemon
+C:\Users\Pritam\AppData\Roaming\npm\nodemon -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\nodemon\bin\nodemon.js
+
+> nodemon@1.18.11 postinstall C:\Users\Pritam\AppData\Roaming\npm\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.8 (node_modules\nodemon\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.8: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ nodemon@1.18.11
+updated 9 packages in 27.964s
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm install mongoose bluebird --save
++ bluebird@3.5.4
++ mongoose@5.5.2
+added 23 packages from 17 contributors and audited 234 packages in 7.967s
+found 3 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\server>nodemon
+[nodemon] 1.18.11
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node ./bin/www`
+connection successful
+
+
+
+   ╭─────────────────────────────────────────╮
+   │                                         │
+   │   Update available 1.18.10 → 1.18.11    │
+   │     Run npm i -g nodemon to update      │
+   │                                         │
+   ╰─────────────────────────────────────────╯
+
+Terminate batch job (Y/N)? y
+
+E:\Code\Java\NodeJS\node-react-graphql\server>mkdir models
+
+E:\Code\Java\NodeJS\node-react-graphql\server>touch models/Book.js
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm i touch
++ touch@3.1.0
+added 3 packages from 2 contributors and audited 237 packages in 3.181s
+found 3 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\server>touch models/Book.js
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm touch models/Book.js
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    clean-install, clean-install-test, completion, config,
+    create, ddp, dedupe, deprecate, dist-tag, docs, doctor,
+    edit, explore, get, help, help-search, hook, i, init,
+    install, install-ci-test, install-test, it, link, list, ln,
+    login, logout, ls, org, outdated, owner, pack, ping, prefix,
+    profile, prune, publish, rb, rebuild, repo, restart, root,
+    run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Pritam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.9.0 C:\Users\Pritam\AppData\Roaming\npm\node_modules\npm
+
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm run touch models/Book.js
+npm ERR! missing script: touch
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-04-22T12_46_41_774Z-debug.log
+
+E:\Code\Java\NodeJS\node-react-graphql\server>npm install express express-graphql graphql graphql-date cors --save
++ express@4.16.4
++ cors@2.8.5
++ express-graphql@0.8.0
++ graphql@14.2.1
++ graphql-date@1.0.3
+added 12 packages from 9 contributors, updated 1 package and audited 268 packages in 11.918s
+found 3 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\Java\NodeJS\node-react-graphql\server>nodemon
+[nodemon] 1.18.11
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node ./bin/www`
+connection successful
+GET /graphql 200 30.844 ms - 3738
+POST /graphql? 200 130.008 ms - 20328
+POST /graphql? 400 4.360 ms - 94
+POST /graphql? 200 100.027 ms - 21
+POST /graphql? 200 6.607 ms - 21
+POST /graphql? 400 4.029 ms - 114
+POST /graphql? 400 6.738 ms - 114
+POST /graphql? 400 5.233 ms - 114
+POST /graphql? 200 457.853 ms - 64
+POST /graphql? 200 71.828 ms - 95
+POST /graphql? 200 5.436 ms - 95
+POST /graphql? 400 1.509 ms - 100
+POST /graphql? 200 5.579 ms - 272
+POST /graphql? 200 6.558 ms - 272
+GET /graphql?query=%7B%0A%20%20books%20%7B%0A%20%20%20%20_id%0A%20%20%20%20isbn%0A%20%20%20%20title%0A%20%20%20%20author%0A%20%20%20%20description%0A%20%20%20%20published_year%0A%20%20%20%20publisher%0A%20%20%20%20updated_date%0A%20%20%7D%0A%7D%0A 200 10.683 ms - 4292
+POST /graphql? 200 23.738 ms - 20328
+GET / 304 737.769 ms - -
+GET /stylesheets/style.css 304 3.691 ms - -
+GET /graphql?query=%7B%0A%20%20books%20%7B%0A%20%20%20%20_id%0A%20%20%20%20isbn%0A%20%20%20%20title%0A%20%20%20%20author%0A%20%20%20%20description%0A%20%20%20%20published_year%0A%20%20%20%20publisher%0A%20%20%20%20updated_date%0A%20%20%7D%0A%7D%0A 200 6.926 ms - 4292
+POST /graphql? 200 28.970 ms - 20328
+GET / 304 19.284 ms - -
+GET /stylesheets/style.css 304 1.010 ms - -
+^CTerminate batch job (Y/N)? y
+
+E:\Code\Java\NodeJS\node-react-graphql\server>
