@@ -208,3 +208,47 @@ GET /stylesheets/style.css 304 1.010 ms - -
 ^CTerminate batch job (Y/N)? y
 
 E:\Code\Java\NodeJS\node-react-graphql\server>
+
+E:\Code\NodeJS\node-react-graphql-git\server>npm update --no-save
++ bluebird@3.7.2
++ graphql@14.5.8
++ http-errors@1.7.3
++ express@4.17.1
++ mongoose@5.7.13
+added 11 packages from 12 contributors, removed 6 packages, updated 24 packages and audited 258 packages in 21.183s
+found 4 vulnerabilities (3 low, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+E:\Code\NodeJS\node-react-graphql-git\server>npm outdated
+Package          Current  Wanted  Latest  Location
+debug              2.6.9   2.6.9   4.1.1  server
+express-graphql    0.8.0   0.8.0   0.9.0  server
+
+E:\Code\NodeJS\node-react-graphql-git\server>ncu -u
+'ncu' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\NodeJS\node-react-graphql-git\server>npm i -g npm-check-updates
+C:\Users\Pritam\AppData\Roaming\npm\npm-check-updates -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\npm-check-updates\bin\npm-check-updates
+C:\Users\Pritam\AppData\Roaming\npm\ncu -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\npm-check-updates\bin\ncu
++ npm-check-updates@3.2.2
+added 260 packages from 118 contributors in 148.112s
+
+E:\Code\NodeJS\node-react-graphql-git\server>ncu -u
+Upgrading E:\Code\NodeJS\node-react-graphql-git\server\package.json
+[====================] 12/12 100%
+
+ cookie-parser  ~1.4.3  →  ~1.4.4
+ debug          ~2.6.9  →  ~4.1.1
+ morgan         ~1.9.0  →  ~1.9.1
+
+Run npm install to install new versions.
+
+
+E:\Code\NodeJS\node-react-graphql-git\server>ncu -u
+Upgrading E:\Code\NodeJS\node-react-graphql-git\server\package.json
+[====================] 12/12 100%
+
+All dependencies match the latest package versions :)
+
+E:\Code\NodeJS\node-react-graphql-git\server>

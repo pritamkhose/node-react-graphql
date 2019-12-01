@@ -185,107 +185,168 @@ To create a production build, use npm run build.
 Compiling...
 Compiled successfully!
 
-You can now view client in the browser.
-
-  Local:            http://localhost:3000/
-  On Your Network:  http://192.168.230.1:3000/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3000/
-  On Your Network:  http://192.168.230.1:3000/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3000/
-  On Your Network:  http://192.168.230.1:3000/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3000/
-  On Your Network:  http://192.168.230.1:3000/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3000/
-  On Your Network:  http://192.168.230.1:3000/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3000/
-  On Your Network:  http://192.168.230.1:3000/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-
-Terminate batch job (Y/N)?
-
 E:\Code\Java\NodeJS\node-react-graphql\client>
 
-E:\Code\Java\NodeJS\node-react-graphql\client>
+E:\Code\NodeJS\node-react-graphql-git\client>npm run start
 
-E:\Code\Java\NodeJS\node-react-graphql\client>
-
-E:\Code\Java\NodeJS\node-react-graphql\client>npm start
-
-> client@0.1.0 start E:\Code\Java\NodeJS\node-react-graphql\client
+> client@0.1.0 start E:\Code\NodeJS\node-react-graphql-git\client
 > react-scripts start
-? Something is already running on port 3000.
+Starting the development server...
 
-Would you like to run the app on another port instead? Yes
+Browserslist: caniuse-lite is outdated. Please run next command `npm update`
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.43.11:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Terminate batch job (Y/N)? y
+
+E:\Code\NodeJS\node-react-graphql-git\client>ncu -u
+Upgrading E:\Code\NodeJS\node-react-graphql-git\client\package.json
+[====================] 9/9 100%
+
+ apollo-boost       ^0.3.1  →    ^0.4.4
+ graphql           ^14.2.1  →   ^14.5.8
+ react             ^16.8.6  →  ^16.12.0
+ react-apollo       ^2.5.5  →    ^3.1.3
+ react-dom         ^16.8.6  →  ^16.12.0
+ react-router-dom   ^5.0.0  →    ^5.1.2
+ react-scripts       2.1.8  →     3.2.0
+ bootstrap          ^4.3.1  →    ^4.4.1
+
+Run npm install to install new versions.
+
+
+E:\Code\NodeJS\node-react-graphql-git\client>npm install
+npm WARN deprecated fsevents@1.2.9: One of your dependencies needs to upgrade to fsevents v2: 1) Proper nodejs v10+ support 2) No more fetching binaries from AWS, smaller package size
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated core-js@2.6.10: core-js@<3.0 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+
+> core-js@2.6.10 postinstall E:\Code\NodeJS\node-react-graphql-git\client\node_modules\babel-runtime\node_modules\core-js
+> node postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@3.2.1 postinstall E:\Code\NodeJS\node-react-graphql-git\client\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm WARN react-apollo@3.1.3 requires a peer of @types/react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @apollo/react-common@3.1.3 requires a peer of @types/react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @apollo/react-components@3.1.3 requires a peer of @types/react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @apollo/react-hooks@3.1.3 requires a peer of @types/react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @apollo/react-hoc@3.1.3 requires a peer of @types/react@^16.8.0 but none is installed. You must install peer dependencies yourself.
+npm WARN ts-pnp@1.1.4 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN tsutils@3.17.1 requires a peer of typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.4.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.4.1 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\jest-haste-map\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.0.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.0.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1537 packages from 762 contributors and audited 905237 packages in 350.235s
+found 0 vulnerabilities
+
+
+E:\Code\NodeJS\node-react-graphql-git\client>npm start
+
+> client@0.1.1 start E:\Code\NodeJS\node-react-graphql-git\client
+> react-scripts start
 Starting the development server...
 Compiled successfully!
 
 You can now view client in the browser.
 
-  Local:            http://localhost:3001/
-  On Your Network:  http://192.168.230.1:3001/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3001/
-  On Your Network:  http://192.168.230.1:3001/
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-Compiling...
-Compiled successfully!
-
-You can now view client in the browser.
-
-  Local:            http://localhost:3001/
-  On Your Network:  http://192.168.230.1:3001/
+  Local:            http://localhost:3000/
+  On Your Network:  http://192.168.43.11:3000/
 
 Note that the development build is not optimized.
 To create a production build, use npm run build.
 
+Terminate batch job (Y/N)? y
+
+E:\Code\NodeJS\node-react-graphql-git\client>npm run build
+
+> client@0.1.1 build E:\Code\NodeJS\node-react-graphql-git\client
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  87.26 KB  build\static\js\2.3804253a.chunk.js
+  22.46 KB  build\static\css\2.c0f5ac91.chunk.css
+  2.17 KB   build\static\js\main.949a2500.chunk.js
+  772 B     build\static\js\runtime-main.8095ec4f.js
+  523 B     build\static\css\main.584f321a.chunk.css
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+
+
+E:\Code\NodeJS\node-react-graphql-git\client>npm i -g serve
+C:\Users\Pritam\AppData\Roaming\npm\serve -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\serve\bin\serve.js
++ serve@11.2.0
+added 78 packages from 39 contributors in 104.882s
+
+E:\Code\NodeJS\node-react-graphql-git\client>cd build
+
+E:\Code\NodeJS\node-react-graphql-git\client\build>serve -s build
+WARNING: Checking for updates failed (use `--debug` to see full error)
+
+   ┌───────────────────────────────────────────────────┐
+   │                                                   │
+   │   Serving!                                        │
+   │                                                   │
+   │   - Local:            http://localhost:5000       │
+   │   - On Your Network:  http://192.168.43.11:5000   │
+   │                                                   │
+   │   Copied local address to clipboard!              │
+   │                                                   │
+   └───────────────────────────────────────────────────┘
+
+
+INFO: Gracefully shutting down. Please wait...
+
+WARNING: Force-closing all open sockets...
+Terminate batch job (Y/N)? y
+
+E:\Code\NodeJS\node-react-graphql-git\client\build> cd ..
+
+E:\Code\NodeJS\node-react-graphql-git\client\>

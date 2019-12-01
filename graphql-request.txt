@@ -1,0 +1,72 @@
+## Get Data
+# {
+#   books {
+#     _id
+#     isbn
+#     title
+#     author
+#     description
+#     published_year
+#     publisher
+#     updated_date
+#   } 
+# }
+
+
+## Add Data
+# mutation {
+#   addBook(
+#     isbn: "12345678",
+#     title: "Whatever this Book Title",
+#     author: "Mr. Bean",
+#     description: "The short explanation of this Book",
+#     publisher: "Djamware Press",
+#     published_year: 2019
+#   ) {
+#     updated_date
+#   }
+# }
+
+# mutation {
+#   addBook(
+#     isbn: "12345678221",
+#     title: "The Learning Curve of GraphQL",
+#     author: "Didin J.",
+#     description: "The short explanation of this Book",
+#     publisher: "Djamware Press",
+#     published_year: 2019
+#   ) {
+#     _id
+# 		isbn
+#     title
+#     author
+#     description
+#     publisher
+#     published_year
+#     updated_date
+#   }
+# }
+
+## Update Data
+# mutation {
+#   updateBook(
+#     id: "5de29a248bb49e06808f4d39",
+#     isbn: "12345678221",
+#     title: "The Learning Curve of GraphQL",
+#     author: "Didin J.",
+#     description: "The short explanation of this Book",
+#     publisher: "Djamware Press",
+#     published_year: 2019
+#   ) {
+#     _id,
+#     updated_date
+#   }
+# }
+
+## Delete Data
+# mutation {
+#   removeBook(id: "5de29a248bb49e06808f4d39") {
+#     _id
+#   }
+# }
+

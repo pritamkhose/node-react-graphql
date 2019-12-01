@@ -17,8 +17,9 @@ const GET_BOOKS = gql`
 class App extends Component {
 
   render() {
+    // pollInterval={5000}
     return (
-      <Query pollInterval={500} query={GET_BOOKS}>
+      <Query  query={GET_BOOKS}>
         {({ loading, error, data }) => {
           if (loading) return 'Loading...';
           if (error) return `Error! ${error.message}`;

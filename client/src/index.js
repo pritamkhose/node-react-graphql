@@ -19,7 +19,7 @@ import Edit from './components/Edit';
 import Create from './components/Create';
 import Show from './components/Show';
 
-const client = new ApolloClient({ uri: 'http://localhost:3000/graphql' });
+const client = new ApolloClient({ uri: 'http://localhost:8080/graphql' });
 
 ReactDOM.render(
     <ApolloProvider client={client}>

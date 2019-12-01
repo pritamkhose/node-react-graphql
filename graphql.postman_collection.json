@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "1a0285d2-20fd-45c9-ac72-5953b03d87e4",
+		"name": "graphql",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"operationName\":null,\"variables\":{},\"query\":\"{\\n  books {\\n    _id\\n    title\\n    author\\n    __typename\\n  }\\n}\\n\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/graphql",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"operationName\":\"book\",\"variables\":{\"bookId\":\"5de2994e8bb49e06808f4d38\"},\"query\":\"query book($bookId: String) {\\n  book(id: $bookId) {\\n    _id\\n    isbn\\n    title\\n    author\\n    description\\n    published_year\\n    publisher\\n    updated_date\\n    __typename\\n  }\\n}\\n\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/graphql",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"operationName\":\"updateBook\",\"variables\":{\"id\":\"5de2994e8bb49e06808f4d38\",\"isbn\":\"12345678\",\"title\":\"Whatever this Book Title\",\"author\":\"Mr. Bean\",\"description\":\"The short explanation of this Book\",\"publisher\":\"Djamware Press\",\"published_year\":2019},\"query\":\"mutation updateBook($id: String!, $isbn: String!, $title: String!, $author: String!, $description: String!, $publisher: String!, $published_year: Int!) {\\n  updateBook(id: $id, isbn: $isbn, title: $title, author: $author, description: $description, publisher: $publisher, published_year: $published_year) {\\n    updated_date\\n    __typename\\n  }\\n}\\n\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/graphql",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"operationName\":\"AddBook\",\"variables\":{\"isbn\":\"364756\",\"title\":\"Tata\",\"author\":\"Pritam\",\"description\":\"esdrtfghbjn \",\"publisher\":\"wer\",\"published_year\":2019},\"query\":\"mutation AddBook($isbn: String!, $title: String!, $author: String!, $description: String!, $publisher: String!, $published_year: Int!) {\\n  addBook(isbn: $isbn, title: $title, author: $author, description: $description, publisher: $publisher, published_year: $published_year) {\\n    _id\\n    __typename\\n  }\\n}\\n\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/graphql",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"operationName\":\"book\",\"variables\":{\"bookId\":\"5de3661505233b30c9fcad75\"},\"query\":\"query book($bookId: String) {\\n  book(id: $bookId) {\\n    _id\\n    isbn\\n    title\\n    author\\n    description\\n    published_year\\n    publisher\\n    updated_date\\n    __typename\\n  }\\n}\\n\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/graphql",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

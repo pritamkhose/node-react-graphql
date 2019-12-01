@@ -8,7 +8,11 @@ var graphqlHTTP = require('express-graphql');
 var schema = require('./graphql/bookSchemas');
 var cors = require("cors");
 
-mongoose.connect('mongodb://localhost/node-graphql', { promiseLibrary: require('bluebird'), useNewUrlParser: true })
+
+var dbUrl = 'mongodb://pritam:pritam@cluster0-shard-00-00-qhmqk.mongodb.net:27017,cluster0-shard-00-01-qhmqk.mongodb.net:27017,cluster0-shard-00-02-qhmqk.mongodb.net:27017/node-graphql?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true';
+// var dbUrl = 'mongodb://localhost/node-graphql'
+
+mongoose.connect(dbUrl, { promiseLibrary: require('bluebird'), useNewUrlParser: true })
   .then(() =>  console.log('connection successful'))
   .catch((err) => console.error(err));
 
